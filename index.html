@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>jVectorMap demo</title>
+  <title>Great American Roadtrip Map</title>
   <link rel="stylesheet" href="jquery-jvectormap.css" type="text/css" media="screen"/>
   <script src="src/jquery-2.1.4.js"></script>
   <script src="jquery-jvectormap.js"></script>
@@ -58,7 +58,7 @@
         }
     });
 
-    var myCustomColors = {
+    var statesVisited = {
         'US-CA': '#89AFBF',
         'US-NV': '#89AFBF',
         'US-UT': '#89AFBF',
@@ -83,7 +83,7 @@
         'US-AZ': '#89AFBF'
 
     };
-    map.series.regions[0].setValues(myCustomColors);
+    map.series.regions[0].setValues(statesVisited);
 });
 
   </script>
